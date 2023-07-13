@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&family=Libre+Franklin:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#landing {
+  background-image: url("images/bglanding.png");
+  background-size: cover;
+  background-position: top center;
+  min-height: 100vh;
+}
+
+/*----Header-----*/
+#landing img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: 30px;
+  float: left;
+  margin-top: 30px;
+}
+
+#landing .header {
+  margin-top: 30px;
+  display: inline;
+  align-content: flex-start;
+  white-space: nowrap;
+}
+
+#landing .header li {
+  font-family: "Katibeh";
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+}
+li a.home:hover {
+  cursor: pointer;
+}
+.links img:hover {
+  cursor: pointer;
+}
+/*
+.indicator {
+  display: none;
+  content: url(leaves.png);
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 600px;
+  top: 15px;
+}
+*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+ a:hover {
+  content: url(leaves.png);
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 600px;
+  top: 15px;
+  
+}
+*/
+
+/*removes default styling from hyperlinks*/
+
+.header ul {
+  text-align: center;
+  align-content: center;
+  padding: 50px;
+}
+
+.links {
+  padding-right: 40px;
+  margin-top: 30px;
+  float: right;
+}
+a
+/*
+.indicator img{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 400px;
+  top: 15px;
+}
+*/
+
+/*----------Hover images--------------*/
+
+.img1 {
+  position: absolute;
+  top: 1%;
+  left: 48.3%;
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.home:hover + .img1 {
+  margin: 10px;
+  opacity: 100%;
+  position: absolute;
+  top: 1%;
+  left: 48.3%;
+  width: 30px;
+  height: 30px;
+  opacity: 100%;
+  display: block;
+}
+
+/*----------end Hover images--------------*/
+
+/*----End Header-----*/
+
+.intro {
+  color: white;
+  max-width: 1200px;
+  float: right;
+  display: block;
+  justify-content: flex-end;
+  position: absolute;
+
+  left: 55%;
+  top: 40%;
+}
+.intro h1 {
+  font-family: "Katibeh";
+  font-size: 120px;
+  line-height: 100px;
+  width: 541px;
+}
+.intro p {
+  font-family: "Libre Franklin", sans-serif;
+  position: inherit;
+  align-content: left;
+  justify-content: center;
+  color: #ababab;
+  font-size: 30px;
+  line-height: 40px;
+  width: 600px;
+}
+
+.divider1 img,
+.divider2 img {
+  height: 50px;
+  width: 50px;
+}
+
+/*-------elements-------*/
+.elements {
+  margin: 20px 0 80px 0;
+}
+.elements h1 {
+  font-family: "katibeh";
+  font-size: 80px;
+  padding: 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+.elements h2 {
+  font-family: "Katibeh";
+  font-size: 36px;
+  line-height: 30px;
+  text-align: center;
+}
+.elements p {
+  font-family: "Libre Franklin", sans-serif;
+  color: #666;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  width: 243px;
+  height: 102px;
+  left: 164px;
+}
+.blocks {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+span {
+  color: #01a040;
+}
+
+.ashwaghanda {
+  min-width: 321px;
+  min-height: 402px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  padding: 20px;
+}
+.ashwaghanda h2 {
+  position: relative;
+  padding-top: 24px;
+}
+.ashwaghanda p {
+  position: relative;
+  left: 18px;
+}
+
+.ashwaghanda img {
+  width: 241px;
+  height: 179px;
+  position: relative;
+  left: 18px;
+}
+.macaroot {
+  min-width: 321px;
+  min-height: 402px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0 60px;
+}
+.macaroot p {
+  position: relative;
+  left: 18px;
+}
+
+.macaroot img {
+  height: 206.53px;
+  padding-bottom: 10px;
+  position: relative;
+  left: 12%;
+  margin-top: 20px;
+}
+.holybasil {
+  min-width: 321px;
+  min-height: 402px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  padding: 20px;
+}
+.holybasil p {
+  position: relative;
+  left: 18px;
+}
+
+.holybasil img {
+  width: 154.95px;
+  height: 193.69px;
+  padding-bottom: 30px;
+  position: relative;
+  left: 70px;
+  margin-top: 20px;
+}
+.middle {
+  position: relative;
+}
+.middle img {
+  max-width: 113px;
+  max-width: 113px;
+  position: absolute;
+  right: 45%;
+  bottom: 84.6%;
+  z-index: 1;
+}
+.motivate {
+  background-color: black;
+  padding: 140px 140px 140px 0;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Libre Franklin", sans-serif;
+  white-space: nowrap;
+}
+.motivate h1 {
+  background: -webkit-linear-gradient(45deg, #00c24e, #00a3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  min-width: 100vw;
+}
+
+#reviews h1 {
+  text-align: center;
+  font-family: "katibeh";
+  margin: 60px;
+  font-size: 64px;
+  padding: 20px;
+  white-space: nowrap;
+}
+.reviews {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.box1,
+.box2,
+.box3 {
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  min-width: 300px;
+  min-height: 300px;
+  left: 128px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.25);
+  border-color: #00a3ff;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.box1 .quote,
+.box2 .quote,
+.box3 .quote {
+  margin: 20px 0 0 20px;
+}
+
+.box1 p,
+.box2 p,
+.box3 p {
+  color: #8a8a8a;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  width: 205px;
+  height: 82px;
+  left: 60px;
+  font-family: "Libre Franklin", sans-serif;
+  font-style: italic;
+}
+.box1 h2,
+.box2 h2,
+.box3 h2 {
+  position: relative;
+  width: 100px;
+  height: 13px;
+  left: 202px;
+  top: 60px;
+  font-size: 14px;
+  color: #7d7d7d;
+  font-family: "Libre Franklin", sans-serif;
+}
+.box1 .stars,
+.box2 .stars,
+.box3 .stars {
+  position: relative;
+  top: 90px;
+  left: 110px;
+  padding: 0 0 50px 30px;
+}
+
+/*------BOX 2-----*/
+.box2 {
+  margin: 0 60px;
+}
+
+button {
+  background-color: #00a3ff;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  left: 40%;
+  right: 30%;
+  top: 350px;
+
+  position: absolute;
+  border-radius: 10px;
+
+  width: 326px;
+  height: 50px;
+}
+/*------Newsletter---------*/
+
+.newsletter img {
+  max-width: 113px;
+  max-width: 113px;
+  position: absolute;
+  right: 45%;
+  bottom: 87%;
+  z-index: 1;
+}
+
+.newsletter {
+  background-color: black;
+  color: white;
+  position: relative;
+  height: 384px;
+  margin-top: 150px;
+  white-space: nowrap;
+}
+.newsletter h1 {
+  font-size: 36px;
+  text-align: center;
+  font-family: "libre franklin", sans-serif;
+  padding-top: 80px;
+}
+.newsletter h2 {
+  font-size: 24px;
+  padding-top: 10px;
+  text-align: center;
+  font-family: "libre franklin", sans-serif;
+}
+.email form {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  margin: 50px;
+}
+
+input {
+  background-color: #2d2d2d;
+  position: absolute;
+  width: 623px;
+  height: 58px;
+  border: none;
+  background: #2d2d2d;
+  border-radius: 10px;
+}
+.email input[type="submit"] {
+  position: relative;
+  width: 181px;
+  height: 60px;
+  left: 220px;
+  border: none;
+  font-size: 14px;
+  background-color: #00c24e;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.email input[placeholder="Email address"] {
+  padding: 30px;
+  font-size: 14px;
+}
+
+.socials img {
+  position: relative;
+  padding: 20px 15px;
+  top: 300px;
+  float: right;
+}
+
+#ender {
+  position: relative;
+  min-width: 100vw;
+  height: 22px;
+
+  background: linear-gradient(
+    90.27deg,
+    #00a3ff 14.19%,
+    #00a3ff 14.19%,
+    #00c24e 92.59%
+  );
+}
+.field:focus {
+  color: white;
+}

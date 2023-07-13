@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&family=Libre+Franklin:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap");
+
+#about {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/*----Header-----*/
+#about img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: 22px;
+  float: left;
+  margin-top: 6px;
+}
+
+.bg {
+  position: absolute;
+  background: black;
+  min-width: 100vw;
+  height: 150px;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+#about .header li {
+  font-family: "Katibeh";
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*removes default styling from hyperlinks*/
+
+.header ul {
+  text-align: center;
+  align-content: center;
+  padding: 26px 50px 50px 42px;
+}
+
+.links {
+  padding-right: 40px;
+  margin-top: 30px;
+  float: right;
+}
+
+/*--------header---------*/
+
+.body {
+  margin: 0 0 0 200px;
+  position: absolute;
+}
+.beginning h1 {
+  font-family: "libre Franklin";
+  font-size: 64px;
+  line-height: 70px;
+  width: 600px;
+  height: 136px;
+
+  display: flex;
+  align-items: center;
+}
+
+.beginning p {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Libre Franklin", sans-serif;
+  max-width: 600px;
+  max-height: 206px;
+}
+
+span {
+  color: #00a3ff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.photo {
+  position: absolute;
+
+  left: 110%;
+  top: 10%;
+}
+.photo img {
+  min-width: 500px;
+  min-height: 500px;
+  border-radius: 100%;
+}

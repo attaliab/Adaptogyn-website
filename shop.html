@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shop.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <div id="shop">
+      <div class="header">
+        <div class="bg"></div>
+        <img src="images/logo.png" alt="Adaptogyn logo" class="logo" />
+        <div class="links">
+          <img src="images/profile.png" alt="Link to user profile" class="icon" />
+          <img src="images/cart.png" alt="Shopping cart" class="icon" />
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="about.html" class="about">About</a></li>
+            <li><a href="shop.html" class="shop">Shop</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="shopcard">
+        <div class="product">
+          <img
+            src="images/layout-model.png"
+            alt="Adaptogyn bottle with lemons and strawberry"
+          />
+        </div>
+        <div class="info">
+          <h1>Strawberry with a hint of lemon</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
+            viverra dolor turpis diam neque. Faucibus egestas scelerisque
+            pharetra nulla sed. Sit vehicula dignissim risus faucibus quisque
+            senectus nam.
+          </p>
+          <form action="/action_page.php" id="form1">
+            <input type="radio" id="single" name="size" value="$5.00" />
+            <label for="single">Single - <span>$5.00</span></label
+            ><br />
+            <input type="radio" id="6pack" name="size" value="$18.00" />
+            <label for="6pack">6 pack - <span>$18.00</span></label
+            ><br />
+            <button type="submit" form="form1" value="Submit">
+              Add to cart
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
